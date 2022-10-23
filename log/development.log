@@ -1,0 +1,277 @@
+Started GET "/" for ::1 at 2022-10-23 06:36:00 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.3ms | Allocations: 626)
+Completed 200 OK in 34ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 5119)
+
+
+Started GET "/" for ::1 at 2022-10-23 06:56:06 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 278)
+Completed 200 OK in 12ms (Views: 10.5ms | Allocations: 950)
+
+
+Started GET "/" for ::1 at 2022-10-23 06:59:10 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 283)
+Completed 200 OK in 3ms (Views: 1.3ms | Allocations: 954)
+
+
+Started GET "/pages/home" for ::1 at 2022-10-23 06:59:33 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 174.1ms | Allocations: 71196)
+Completed 500 Internal Server Error in 180ms (Allocations: 72136)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (D:/Website/Ruby/app/tmp/cache/assets/sprockets/v4.0.0/Vu/Vus2Oh_QjoyiXVE5AspUvZIZLq-AMiyYNa9kmJ3i_Ms.cache.28660.23892.978263, D:/Website/Ruby/app/tmp/cache/assets/sprockets/v4.0.0/Vu/Vus2Oh_QjoyiXVE5AspUvZIZLq-AMiyYNa9kmJ3i_Ms.cache)):
+  
+sprockets (4.1.1) lib/sprockets/path_utils.rb:362:in `rename'
+sprockets (4.1.1) lib/sprockets/path_utils.rb:362:in `atomic_write'
+sprockets (4.1.1) lib/sprockets/cache/file_store.rb:112:in `set'
+sprockets (4.1.1) lib/sprockets/cache.rb:227:in `set'
+sprockets (4.1.1) lib/sprockets/cache.rb:143:in `set'
+sprockets (4.1.1) lib/sprockets/loader.rb:266:in `store_asset'
+sprockets (4.1.1) lib/sprockets/loader.rb:226:in `load_from_unloaded'
+sprockets (4.1.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.1.1) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.1.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.1.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+sprockets (4.1.1) lib/sprockets/cached_environment.rb:44:in `fetch'
+sprockets (4.1.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.1.1) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.1.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.1.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.1.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.1.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.1.1) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.1.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.1.1) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.1.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.1.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+sprockets (4.1.1) lib/sprockets/cached_environment.rb:44:in `fetch'
+sprockets (4.1.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.1.1) lib/sprockets/bundle.rb:32:in `block in call'
+C:/Ruby31-x64/lib/ruby/3.1.0/set.rb:511:in `each_key'
+C:/Ruby31-x64/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.1.1) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.1.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.1.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.1.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.1.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.1.1) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.1.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.1.1) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.1.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.1.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+sprockets (4.1.1) lib/sprockets/cached_environment.rb:44:in `fetch'
+sprockets (4.1.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.1.1) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.1.1) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.1.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.1.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.1.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `block in synchronize'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/pages" for ::1 at 2022-10-23 07:00:58 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+Started GET "/pages/home" for ::1 at 2022-10-23 07:01:13 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 19932)
+Completed 200 OK in 38ms (Views: 37.8ms | Allocations: 20241)
+
+
+Started GET "/pages/home" for ::1 at 2022-10-23 07:03:35 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1488)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 2097)
+
+
+Started GET "/" for ::1 at 2022-10-23 07:03:40 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1223)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 1503)
+
+
+Started GET "/" for ::1 at 2022-10-23 07:03:50 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1228)
+Completed 200 OK in 5ms (Views: 3.9ms | Allocations: 1494)
+
+
+Started GET "/test" for ::1 at 2022-10-23 07:19:45 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/test"):
+  
+Started GET "/test" for ::1 at 2022-10-23 07:20:52 -0700
+  
+SyntaxError (D:/Website/Ruby/app/config/routes.rb:2: syntax error, unexpected local variable or method, expecting `end'
+  get 'recipes' to: 'pages#recipes'
+                ^~
+):
+  
+config/routes.rb:2: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:2: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:2: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/test" for ::1 at 2022-10-23 07:21:11 -0700
+Processing by PagesController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/test.html.erb within layouts/application
+  Rendered pages/test.html.erb within layouts/application (Duration: 0.3ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1551)
+Completed 200 OK in 6ms (Views: 4.6ms | Allocations: 2233)
+
+
+Started GET "/test" for ::1 at 2022-10-23 07:25:48 -0700
+Processing by PagesController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/test.html.erb within layouts/application
+  Rendered pages/test.html.erb within layouts/application (Duration: 0.3ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 1703)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 2630)
+
+
+Started GET "/" for ::1 at 2022-10-23 07:25:51 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2344)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 2421)
+Completed 500 Internal Server Error in 3ms (Allocations: 2746)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x0000016a9e0ae038>::Ingredients_path):
+    1: <h1>Pages#home</h1>
+    2: <p>Find me in app/views/pages/home.html.erb</p>
+    3: <%= link_to "List of Ingredients", Ingredients_path %>
+  
+app/views/pages/home.html.erb:3
+Started GET "/" for ::1 at 2022-10-23 07:26:23 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1832)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 2610)
+
+
+Started GET "/ingredients" for ::1 at 2022-10-23 07:26:25 -0700
+Processing by PagesController#ingredients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/ingredients.html.erb within layouts/application
+  Rendered pages/ingredients.html.erb within layouts/application (Duration: 0.4ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1269)
+Completed 200 OK in 6ms (Views: 4.3ms | Allocations: 1604)
+
+
+Started GET "/" for ::1 at 2022-10-23 07:28:04 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 207)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 1782)
+Completed 200 OK in 11ms (Views: 8.9ms | Allocations: 2566)
+
+
+Started GET "/ingredients" for ::1 at 2022-10-23 07:28:05 -0700
+Processing by PagesController#ingredients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/ingredients.html.erb within layouts/application
+  Rendered pages/ingredients.html.erb within layouts/application (Duration: 0.5ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1325)
+Completed 200 OK in 6ms (Views: 4.3ms | Allocations: 1659)
+
+
+Started GET "/" for ::1 at 2022-10-23 07:28:06 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1247)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 1510)
+
+
+Started GET "/ingredients" for ::1 at 2022-10-23 07:28:07 -0700
+Processing by PagesController#ingredients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/ingredients.html.erb within layouts/application
+  Rendered pages/ingredients.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1229)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 1492)
+
+
+Started GET "/" for ::1 at 2022-10-23 07:28:08 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1235)
+Completed 200 OK in 5ms (Views: 3.9ms | Allocations: 1498)
+
+
+Started GET "/ingredients" for ::1 at 2022-10-23 07:28:08 -0700
+Processing by PagesController#ingredients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/ingredients.html.erb within layouts/application
+  Rendered pages/ingredients.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1262)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 1525)
+
+
+Started GET "/" for ::1 at 2022-10-23 07:28:09 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1235)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 1498)
+
+
+Started GET "/ingredients" for ::1 at 2022-10-23 07:28:32 -0700
+Processing by PagesController#ingredients as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/ingredients.html.erb within layouts/application
+  Rendered pages/ingredients.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 1238)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 1501)
+
+
+Started GET "/" for ::1 at 2022-10-23 07:28:33 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1235)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 1498)
+
+
